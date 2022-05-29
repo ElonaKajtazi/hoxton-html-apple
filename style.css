@@ -1,3 +1,40 @@
-body{
-    background-color: aqua;
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
 }
+li {
+    list-style: none;
+}
+header nav {
+    background-color: #333333;
+    color: #d0d0d0;
+    display: grid;
+    grid-auto-flow: column;
+    padding: 0.5rem;
+    place-items: center;
+}
+.iphone-13 {
+    background-color: aquamarine;
+    height: 100vh;
+}
+.your-new-super-power{
+    background-color:violet
+}
+.mackbook-pro {
+    background-color: darkcyan;
+}
+.airpods-watch{
+    background-color: blue;
+}
+.homepod-ipad{
+    background-color: tomato;
+}
+.card-tv {
+    background-color: burlywood;
+}
+.bottom {
+    background-color: cornflowerblue;
+}
+
