@@ -39,22 +39,11 @@ main{
 }
 .main__iphone-13-pro__links {
     display: grid;
-    grid-template-columns: 410px 60px;
-    align-content: center;
+    grid-template-columns: 100px 100px;
+    place-content: center;;
+   
+}
 
-}
-.main__iphone-13-pro__links__learn-more{
-    display: grid;
-    grid-template-columns: 0.2fr 0.1fr;
-    justify-content: center;
-    text-decoration: none;
-}
-.main__iphone-13-pro__links__buy{
-    display: grid;
-    grid-template-columns: 0.1fr 0.1fr;
-    justify-content: center;
-    text-decoration: none;
-}
 .your-new-super-power{
     background-color:violet
 }
