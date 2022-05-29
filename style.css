@@ -15,9 +15,45 @@ header nav {
     padding: 0.5rem;
     place-items: center;
 }
-.iphone-13 {
-    background-color: aquamarine;
+main{
+    background-color: white;
     height: 100vh;
+    display: grid;
+    align-content: space-between;
+    padding-bottom: 0.5rem;
+}
+.main__top {
+    background-color: #f5f5f7;
+    padding: 1rem 8rem;
+    place-items: center;
+}
+.main__top a {
+    text-decoration: none;
+    color:#4b91d9
+}
+.main__iphone-13-pro{
+   display: grid;
+   place-content: center;
+   gap: 1rem;
+   text-align: center;
+}
+.main__iphone-13-pro__links {
+    display: grid;
+    grid-template-columns: 410px 60px;
+    align-content: center;
+
+}
+.main__iphone-13-pro__links__learn-more{
+    display: grid;
+    grid-template-columns: 0.2fr 0.1fr;
+    justify-content: center;
+    text-decoration: none;
+}
+.main__iphone-13-pro__links__buy{
+    display: grid;
+    grid-template-columns: 0.1fr 0.1fr;
+    justify-content: center;
+    text-decoration: none;
 }
 .your-new-super-power{
     background-color:violet
