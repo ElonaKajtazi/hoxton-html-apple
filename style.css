@@ -29,28 +29,38 @@ ul {
     width: 20px;
     filter: invert(0.8);
 }
-main{
+ /* main{
     background-color: white;
-    height: 100vh;
-    display: grid;
+     display: grid;
     align-content: space-between;
     padding-bottom: 0.5rem;
+} */
+.top-section{
+    text-align: center;
 }
 .top-section__header {
     background-color: #f5f5f7;
     padding: 1rem 8rem;
     place-items: center;
 }
-.main__top a {
-    text-decoration: none;
-    color:#4b91d9
-}
-.main__iphone-13-pro{
+.top-section__wrapper{
+   background-image: url(./blue-iphone-13pro.png);
+   background-size: 800px;
+   background-position: center  bottom;
+   background-repeat: no-repeat;
+   height: 500px;
+   background-color: white;   
+
    display: grid;
-   place-content: center;
-   gap: 1rem;
-   text-align: center;
+   align-content: flex-start;
+   gap: 0.5rem;
+   margin-bottom: 1rem;
+
+
 }
+
+
+
 .main__iphone-13-pro__links {
     display: grid;
     grid-template-columns: 100px 100px;
