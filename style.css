@@ -123,8 +123,42 @@ body {
   grid-auto-flow: column;
   align-items: center;
 }
-.mackbook-pro {
-  background-color: darkcyan;
+/*THIRD SECTION*/
+.third-section {
+  background-color: white;
+  text-align: center;
+}
+.third-section__wrapper {
+  background-image: url(./macbook-pro.webp);
+  background-size: 800px;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  height: 600px;
+
+  display: grid;
+  align-content: start;
+  gap: 0.5rem;
+}
+.third-section .title {
+  font-size: 2.7rem;
+  margin-top: 3rem;
+  color: #1d1d1f;
+}
+.third-section .subtitle {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #1d1d1f;
+}
+.third-section__nav-list {
+  display: grid;
+  grid-template-columns: auto auto;
+  place-content: center;
+  gap: 1rem;
+}
+.third-section__nav-link {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
 }
 .airpods-watch {
   background-color: blue;
