@@ -160,9 +160,81 @@ body {
   grid-auto-flow: column;
   align-items: center;
 }
-.airpods-watch {
-  background-color: blue;
+/*FOURTH SECTION*/
+.fourth-section {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
 }
+.fourth-section .title {
+  font-size: 1.7rem;
+  margin-top: 2rem;
+  color: #1d1d1f;
+}
+.fourth-section .subtitle {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #1d1d1f;
+}
+.fourth-section__nav-list {
+  display: grid;
+  grid-template-columns: auto auto;
+  place-content: center;
+  gap: 1rem;
+}
+.fourth-section__nav-link {
+  display: grid;
+  grid-auto-flow: column;
+  place-items: center;
+  margin-bottom: 3rem;
+}
+/*FOURTH SECTION LEFT*/
+.forurth-section__left__wrapper {
+  background-image: url(./airpods.jfif);
+  background-size: 400px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 400px;
+
+  display: grid;
+  align-content: end;
+  gap: 0.5rem;
+}
+/*FOURTH SECTION RIGHT*/
+.forurth-section__right__wrapper {
+  background-image: url(./watch.jpg);
+  background-size: 350px;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  height: 400px;
+
+  display: grid;
+  align-content: start;
+  background-color: #f5f5f7;
+  gap: 0.7rem;
+}
+.forurth-section__right__label {
+  color: #d28658;
+  margin-top: 2rem;
+}
+
+.apple-logo-2 {
+  width: 40px;
+}
+.forurth-section__right__wrapper__watch {
+  display: grid;
+  grid-template-columns: 45px 70px;
+  margin-left: 20rem;
+  align-items: center;
+}
+.forurth-section__right__wrapper .title {
+  margin-top: 0%;
+}
+.forurth-section__right__series {
+  color: #d13b41;
+}
+
 .homepod-ipad {
   background-color: tomato;
 }
