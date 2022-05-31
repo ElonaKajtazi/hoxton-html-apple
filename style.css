@@ -29,6 +29,7 @@ body {
   backdrop-filter: blur(15px);
   z-index: 10;
 }
+
 .header__nav-list {
   display: grid;
   grid-auto-flow: column;
@@ -43,6 +44,15 @@ body {
 .header__apple-logo {
   width: 20px;
   filter: invert(0.8);
+}
+.header.mobile .header__nav-list {
+  justify-content: space-between;
+}
+.header.mobile .header__nav-list a {
+  color: white;
+}
+.header.mobile {
+  display: none;
 }
 /*MAIN SECTION*/
 .main {
@@ -368,7 +378,13 @@ body {
   gap: 2rem;
   padding: 1rem;
 }
-.column {
+@media screen and (max-width: 950px) {
+  .header{
+    display: none;
+  }
+  .header.mobile {
+    display: block;
+  }
   
 }
 @media screen and (max-width: 750px) {
