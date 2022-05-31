@@ -257,12 +257,36 @@ body {
   place-content: center;
   gap: 1rem;
 }
+
 .fifth-section__nav-link {
   display: grid;
   grid-auto-flow: column;
   place-items: center;
   margin-bottom: 3rem;
 }
+.fifth-section__left__wrapper {
+  background-image: url(./homepod-mini.jpg);
+  background-size: 330px;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  height: 400px;
+
+  display: grid;
+  align-content: start;
+  gap: 0.5rem;
+}
+.fifth-section__right__wrapper {
+  background-image: url(./ipad-mini.png);
+  background-size: 360px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 460px;
+
+  display: grid;
+  align-content: end;
+  gap: 0.5rem;
+}
+
 /*SIXTH SECTION*/
 .card-tv {
   background-color: burlywood;
