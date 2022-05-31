@@ -236,7 +236,6 @@ body {
 .apple-logo-2 {
   width: 40px;
   margin-bottom: 0.8rem;
-
 }
 .forurth-section__right__wrapper__watch {
   display: grid;
@@ -341,7 +340,7 @@ body {
   gap: 0.5rem;
   color: black;
 }
-.bottom-section__left__wrapper{
+.bottom-section__left__wrapper {
   background-image: url(./card.jpg);
   background-size: 350px;
   background-position: center bottom;
@@ -352,7 +351,7 @@ body {
   align-content: start;
   gap: 0.5rem;
 }
-.bottom-section__right__wrapper{
+.bottom-section__right__wrapper {
   background-color: #fe8d28;
   height: 400px;
   display: grid;
@@ -361,7 +360,6 @@ body {
 .card-tv-apple-logo {
   width: 40px;
   margin-bottom: 0.8rem;
-
 }
 .bottom-section .title {
   display: grid;
@@ -378,20 +376,36 @@ body {
   gap: 2rem;
   padding: 1rem;
 }
+.footer a {
+  color: #737378;
+}
+.footer h4 {
+  color: #222224;
+}
+.footer.mobile {
+  display: block;
+  grid-auto-flow: row;
+  justify-content: start;
+  display: none;
+}
+.footer.mobile div {
+  border-bottom: 1px solid #00000040;
+  padding: 0.5rem;
+}
 @media screen and (max-width: 950px) {
-  .header{
+  .header,
+  .footer {
     display: none;
   }
-  .header.mobile {
+  .header.mobile,
+  .footer.mobile {
     display: block;
   }
-  
 }
 @media screen and (max-width: 750px) {
   .fourth-section,
-  .fifth-section ,
-  .bottom-section{
+  .fifth-section,
+  .bottom-section {
     grid-template-columns: 1fr;
   }
 }
-
