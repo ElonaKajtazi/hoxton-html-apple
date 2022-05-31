@@ -234,10 +234,36 @@ body {
 .forurth-section__right__series {
   color: #d13b41;
 }
-
-.homepod-ipad {
-  background-color: tomato;
+/*FIFTH SECTION*/
+.fifth-section {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
 }
+.fifth-section .title {
+  font-size: 1.7rem;
+  margin-top: 2rem;
+  color: #1d1d1f;
+}
+.fifth-section .subtitle {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #1d1d1f;
+}
+.fifth-section__nav-list {
+  display: grid;
+  grid-template-columns: auto auto;
+  place-content: center;
+  gap: 1rem;
+}
+.fifth-section__nav-link {
+  display: grid;
+  grid-auto-flow: column;
+  place-items: center;
+  margin-bottom: 3rem;
+}
+/*SIXTH SECTION*/
 .card-tv {
   background-color: burlywood;
 }
