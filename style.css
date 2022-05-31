@@ -360,10 +360,10 @@ body {
   background-color: cornflowerblue;
 }
 @media screen and (max-width: 750px) {
-  .fourth-section {
-
-   
+  .fourth-section,
+  .fifth-section ,
+  .bottom-section{
     grid-template-columns: 1fr;
-
   }
 }
+
